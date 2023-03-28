@@ -8,18 +8,20 @@
     <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-    <header class="header">
-        <div class="header__inner inner">
-            <h1 class="header__title"><a href="index.html">DERC</a></h1>
-            <ul class="header__nav">
-                <li><a href="index.html">ホーム</a></li>
-                <li><a href="about.html">活動について</a></li>
-                <li><a href="recruit.html">メンバー募集</a></li>
-                <li><a href="donation.html">ご支援のお願い</a></li>
-                <li><a href="form.html">お問合せ</a></li>
-            </ul>
-        </div>
+    <header class="header inner">
+        <h1 class="header__title"><a href="index.html">DERC</a></h1>  
     </header>
+
+    <div class="openbtn1"><span></span><span></span><span></span></div>
+        <nav id="g-nav">
+            <ul>
+                <li><a href="index.html">ホーム</a></li>  
+                <li><a href="about.html">活動について</a></li>  
+                <li><a href="recuruit.html">メンバー募集！</a></li>  
+                <li><a href="donation.html">ご支援のお願い</a></li> 
+                <li><a href="form.html">お問合せ</a></li>  
+            </ul>
+        </nav>
 
     <section class="about">
         <div class="about__inner inner">
@@ -65,25 +67,15 @@
             </section>
         </div>
 
-        <section class="contact">
-            <div class="contact__inner inner">
-                <h1 class="contact__title">Contact</h1>
-                <ul class="contact__nav">
-                    <li><a href="https://www.instagram.com/derc928/">Instagram</a></li>
-                    <li><a href="https://twitter.com/DERC50700666">Twitter</a></li>
-                    <li><a href="">Facebook</a></li>
-                </ul>
-            </div>
-        </section>
 
     <footer class="footer">
-        <div class="footer__inner inner">
+        <div class="inner">
             <div class="footer__content">
-                <div class="footer__center">
+                <div class="footer__left">
                     <ul class="footer__nav">
                         <li><a href="index.html">ホーム</a></li>
                         <li><a href="about.html">活動について</a></li>
-                        <li><a href="recuruit.html">メンバー募集</a></li>
+                        <li><a href="recuruit.html">メンバー募集！</a></li>
                         <li><a href="donation.html">ご支援のお願い</a></li>
                         <li><a href="form.html">お問合せ</a></li>
                     </ul>
@@ -97,14 +89,21 @@
                 </div>
             </div>
 
-            <div class="footer__left">
-                <div class="footer__logo"><a href="index.html"><img src="./img/logo.png" alt=""></a></div>
-                <div class="footer__address">住所：〒610-0321　京都府京田辺市多々羅都谷1-3 同志社大学 嗣業館2階 京田辺校地総務課内 同志社ローム記念館事務室 DERC CanSat プロジェクト</div>
+            <div class="footer__bottom">
+                <div class="footer__address">住所：〒610-0394　<br>
+                                             　　　京都府京田辺市多々羅都谷1-3　同志社大学ローム記念館　２階</div>
                 <div class="footer__tel">TEL：0774-65-7800</div>
+                <div class="footer__mail">Mail：derccansat@gmail.com</div>
             </div>
         </div>
     </footer>
 
-    <div class="to-top"><a href="index.html"><img src="./img/totop.png" alt=""></a></div>
+    <div class="to_top">Top</div>    
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <!--JSの読み込み-->
+    <script src="./javascript/drawer_menu.js"></script>
+    <script src="./javascript/to_top.js"></script>
+    <script src="./javascript/slide_img.js"></script>
 </body>
 </html>
